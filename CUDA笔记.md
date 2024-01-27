@@ -48,3 +48,4 @@ __shared__: 声明在共享存储中的变量，仅供block中所有thread共享
 ```
 #### 核函数
 `kernel_name <<<grid, block>>(argument)`
+test
