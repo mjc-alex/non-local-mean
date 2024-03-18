@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alex/cuda/mse.cc" "CMakeFiles/mse.dir/mse.cc.o" "gcc" "CMakeFiles/mse.dir/mse.cc.o.d"
+  "/home/alex/non-local mean/cuda/mse.cc" "CMakeFiles/mse.dir/mse.cc.o" "gcc" "CMakeFiles/mse.dir/mse.cc.o.d"
   )
 
 # Targets to which this target links.

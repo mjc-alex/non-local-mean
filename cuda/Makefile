@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/cuda
+CMAKE_SOURCE_DIR = "/home/alex/non-local mean/cuda"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/cuda
+CMAKE_BINARY_DIR = "/home/alex/non-local mean/cuda"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/cuda/CMakeFiles /home/alex/cuda//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/non-local mean/cuda/CMakeFiles" "/home/alex/non-local mean/cuda//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/cuda/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/non-local mean/cuda/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mse
+# Target rules for targets named DisplayImage
 
 # Build rule for target.
-mse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mse
-.PHONY : mse
+DisplayImage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DisplayImage
+.PHONY : DisplayImage
 
 # fast build rule for target.
-mse/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/build
-.PHONY : mse/fast
+DisplayImage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
+.PHONY : DisplayImage/fast
 
-mse.o: mse.cc.o
-.PHONY : mse.o
+DisplayImage.o: DisplayImage.cpp.o
+.PHONY : DisplayImage.o
 
 # target to build an object file
-mse.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/mse.cc.o
-.PHONY : mse.cc.o
+DisplayImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o
+.PHONY : DisplayImage.cpp.o
 
-mse.i: mse.cc.i
-.PHONY : mse.i
+DisplayImage.i: DisplayImage.cpp.i
+.PHONY : DisplayImage.i
 
 # target to preprocess a source file
-mse.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/mse.cc.i
-.PHONY : mse.cc.i
+DisplayImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.i
+.PHONY : DisplayImage.cpp.i
 
-mse.s: mse.cc.s
-.PHONY : mse.s
+DisplayImage.s: DisplayImage.cpp.s
+.PHONY : DisplayImage.s
 
 # target to generate assembly for a file
-mse.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/mse.cc.s
-.PHONY : mse.cc.s
+DisplayImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.s
+.PHONY : DisplayImage.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mse"
-	@echo "... mse.o"
-	@echo "... mse.i"
-	@echo "... mse.s"
+	@echo "... DisplayImage"
+	@echo "... DisplayImage.o"
+	@echo "... DisplayImage.i"
+	@echo "... DisplayImage.s"
 .PHONY : help
 
 

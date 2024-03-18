@@ -1,6 +1,6 @@
 CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o: \
- /home/alex/cuda/DisplayImage.cpp /usr/include/stdc-predef.h \
- /usr/include/opencv4/opencv2/opencv.hpp \
+ /home/alex/non-local\ mean/cuda/DisplayImage.cpp \
+ /usr/include/stdc-predef.h /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \

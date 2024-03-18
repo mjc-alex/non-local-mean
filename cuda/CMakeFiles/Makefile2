@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/cuda
+CMAKE_SOURCE_DIR = "/home/alex/non-local mean/cuda"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/cuda
+CMAKE_BINARY_DIR = "/home/alex/non-local mean/cuda"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/mse.dir/all
+all: CMakeFiles/DisplayImage.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/mse.dir/clean
+clean: CMakeFiles/DisplayImage.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mse.dir
+# Target rules for target CMakeFiles/DisplayImage.dir
 
 # All Build rule for target.
-CMakeFiles/mse.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alex/cuda/CMakeFiles --progress-num=1,2 "Built target mse"
-.PHONY : CMakeFiles/mse.dir/all
+CMakeFiles/DisplayImage.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alex/non-local mean/cuda/CMakeFiles" --progress-num=1,2 "Built target DisplayImage"
+.PHONY : CMakeFiles/DisplayImage.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/cuda/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/cuda/CMakeFiles 0
-.PHONY : CMakeFiles/mse.dir/rule
+CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/non-local mean/cuda/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/non-local mean/cuda/CMakeFiles" 0
+.PHONY : CMakeFiles/DisplayImage.dir/rule
 
 # Convenience name for target.
-mse: CMakeFiles/mse.dir/rule
-.PHONY : mse
+DisplayImage: CMakeFiles/DisplayImage.dir/rule
+.PHONY : DisplayImage
 
 # clean rule for target.
-CMakeFiles/mse.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mse.dir/build.make CMakeFiles/mse.dir/clean
-.PHONY : CMakeFiles/mse.dir/clean
+CMakeFiles/DisplayImage.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/clean
+.PHONY : CMakeFiles/DisplayImage.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
