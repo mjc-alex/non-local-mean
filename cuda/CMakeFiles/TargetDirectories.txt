@@ -1,3 +1,0 @@
-/home/alex/non-local mean/cuda/CMakeFiles/DisplayImage.dir
-/home/alex/non-local mean/cuda/CMakeFiles/edit_cache.dir
-/home/alex/non-local mean/cuda/CMakeFiles/rebuild_cache.dir
