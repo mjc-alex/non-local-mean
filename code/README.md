@@ -4,3 +4,5 @@
 - `nlm-c.cu`: 在命令行中用-x, -y指定参数，分别是x, y的块大小。`usage: nlm -i INPUT -x XSize -y ySize`
 - `image.h`: 定义image的结构体
 - `image.c`: 实现基本的函数，包括图片存取、时间统计等
+
+`noise.bmp`是待滤波图片，`noise_num.bmp`是设置不同$h^2$($h^2=num$)的滤波结果
