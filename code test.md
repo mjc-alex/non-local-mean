@@ -55,6 +55,8 @@ grid, block为二维块，grid大小适应block
 | 2     | 4     | 8    |
 | ----- | ----- | ---- |
 | 688.7 | 178.3 | 85.3 |
+|       |       |      |
+
 ## shared mem
 - Maximum amount of shared memory per SM: 100KB
 - Maximum amount of shared memory per thread block: 99KB
